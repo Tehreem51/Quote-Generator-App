@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #ff6ec4, #764ba2);
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.symbol {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-right: 8px;
+  color: #fff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+.main-heading {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #f72585;
+}
+
+
+.container {
+  text-align: center;
+  background-color: #1f1f1f;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  width: 90%;
+}
+
+.quote-box {
+  min-height: 150px;
+}
+
+.quote-text {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.quote-author {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+#loader {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #7f00ff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  margin: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #4338ca;
+}
+
+.tweet-btn {
+  background-color: #1da1f2;
+}
+
+.tweet-btn:hover {
+  background-color: #0d8ddb;
+}
